@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+
+     <!-- Navbaar -->
+     <nav class="navbar">
+        <div class="logo">
+           <h2>SkCoding</h2>
+        </div>
+        <ul class="nav-items">
+            <li class="li-items"><a href="#">Home</a></li>
+            <li class="li-items"><a href="#">Blog</a></li>
+            <li class="li-items"><a href="#" class="rotate">HTML & CSS<i class="fa-solid fa-angle-up fa-rotate-180"></i></a>
+                <ul class="submenu">
+                    <li><a href="#">Login Form</a></li>
+                    <li><a href="#">Slider Menu</a></li>
+                    <li><a href="#">Card Design</a></li>
+                    <li><a href="#">Navigation Menu</a></li>
+                </ul>
+            </li>
+            <li class="li-items"><a href="#" class="rotate">JavaScript<i class="fa-solid fa-angle-up fa-rotate-180"></i></a>
+                <ul class="submenu">
+                    <li><a href="#">Form Validation</a></li>
+                    <li><a href="#">Js Project</a></li>
+                    <li><a href="#">JavaScript Projects</a></li>
+                    <li><a href="#">Images Slider</a></li>
+                </ul>
+            </li>
+            <li class="li-items"><a href="#">Contact Us</a></li>
+        </ul>
+
+      <!-- SearchFunction -->
+
+        <div class="searchBtn">
+            <div id="arrow"></div>
+            <i class="fa-solid fa-magnifying-glass" onclick="srchShow()"></i>
+            <div class="searchBox">
+               <div class="searchBoxInput">
+                <input type="search" name="search" id="searchInput" placeholder="Search your questuons ?">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+               </div>
+            </div>
+        </div>
+     </nav>
+   </div>
+    <script src="script.js"></script>
+</body>
+</html>
